@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/style.css">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      font-size: 11px; text-align: center;
+      margin-top: 2em;
+    }
+    .attribution a { color: hsl(0, 0%, 100%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="grid">
+      <div class="fylo">
+        <img src="./images/logo.svg" alt="" class="fylo__logo">
+        <div class="fylo__opt">
+          <img src="./images/icon-document.svg" alt="" class="fylo__opt--all">
+          <img src="./images/icon-folder.svg" alt="" class="fylo__opt--all">
+          <img src="./images/icon-upload.svg" alt="" class="fylo__opt--all">
+        </div>
+      </div>
+
+      <div class="loading">
+        <p class="loading__info">You've used <span>815 GB</span> of your storage</p>
+        <div class="loading__bar">
+          <div class="loading__bar--overlay">
+            <div class="loading__bar--overlay-dot"></div>
+          </div>
+        </div>
+        <div class="loading__gb">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </div>
+      </div>
+
+      <div class="gigabyte">
+        <p class="gigabyte__info">185 <span>GB LEFT</span></p>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Briuwu7474 " target="_blank">Briuwu</a>.
+    </div>
+  </main>
+</body>
+</html>
